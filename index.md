@@ -4,7 +4,8 @@ title: "HOME-PAGE"
 permalink: /
 ---
 
+Hi! I’m Chad Merrill. Here are some of my projects:
 
-#Test
-
-This is the website homepage. 
+{% for project in site.projects %}
+- [{{ project.title }}]({{ project.url }})
+{% endfor %}
