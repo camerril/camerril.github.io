@@ -6,3 +6,5 @@ permalink: /
 
 
 #Test
+
+This is the website homepage. 
